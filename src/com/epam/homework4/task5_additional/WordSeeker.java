@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class WordSeeker {
     public static void main(String[] args) {
-        getWord();
+        getEntries();
     }
 
-    private static void getWord(){
+    private static void getEntries(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the text: ");
         String text = scanner.nextLine();
